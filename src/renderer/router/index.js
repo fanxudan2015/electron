@@ -13,6 +13,16 @@ export default new Router({
     {
       path: '*',
       redirect: '/'
+    },
+    {
+      path: '/iframe/imeduplus',
+      name: 'imeduplus',
+      component: require('@/components/Iframe/imeduplus.vue').default
+    },
+    {
+      path: '/iframe/ksx',
+      name: 'ksx',
+      component: require('@/components/Iframe/ksx.vue').default
     }
   ]
 })

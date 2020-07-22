@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <iframe
+      width="1024"
+      height="768"
+      :src="$route.params.src"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+  </div>
+</template>
